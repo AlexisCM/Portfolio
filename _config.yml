@@ -20,7 +20,7 @@
 
 title:    ACM's Portfolio
 source:   "site"
-baseurl:  "Portfolio" # the subpath of your site, e.g. /blog
+baseurl:  "portfolio" # the subpath of your site, e.g. /blog
 domain:   alexiscm.github.io
 url:      https://alexiscm.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
