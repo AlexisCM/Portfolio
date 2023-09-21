@@ -16,6 +16,7 @@
   --teal: #1abc9c;
   --cyan: #17a2b8;
   --white: #fff;
+  --black: #000;
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #1f2d41;
@@ -4861,14 +4862,15 @@ input[type="button"].btn-block {
 
 .badge {
   display: inline-block;
+  color: var(--black);
   padding: 0.25em 0.4em;
-  font-size: 75%;
+  font-size: .75em;
   font-weight: 700;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: 0.5rem;
+  vertical-align: middle;
+  border-radius: 0.25rem;
   transition:
     color 0.15s ease-in-out,
     background-color 0.15s ease-in-out,
@@ -9408,6 +9410,16 @@ button.bg-dark:focus {
   }
 }
 
+.text-link-white {
+  color: var(--white);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.text-link-white:hover {
+  color: var(--secondary);
+}
+
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
@@ -9748,6 +9760,14 @@ a.text-dark:focus {
 .project-text {
   padding: 3rem;
   font-size: 90%;
+}
+
+.project-text-featured-duration {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.project-text-duration {
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 @media (min-width: 992px) {
